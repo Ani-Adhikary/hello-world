@@ -10,3 +10,6 @@ https://gorillalogic.com/blog/arkit-developer-tutorial-how-to-build-a-shoe-measu
 The white fields: Farmers who get salt on to your plate
 
 https://www.hindustantimes.com/photos/india-news/in-pictures-salt-farmers-of-thoothukudi/photo-q6Hdod0DcZYV6xX2jZ7QcO.html
+
+Logo used for apps <br />
+https://freedesignfile.com/370721-rocket-icon-vector/
