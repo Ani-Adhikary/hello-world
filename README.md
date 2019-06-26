@@ -13,3 +13,10 @@ https://www.hindustantimes.com/photos/india-news/in-pictures-salt-farmers-of-tho
 
 Logo used for apps <br />
 https://freedesignfile.com/370721-rocket-icon-vector/
+
+Lex
+========
+
+https://lex.infosysapps.com/navigator/lp/1020?profile=3
+
+
