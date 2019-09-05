@@ -21,3 +21,13 @@ https://lex.infosysapps.com/navigator/lp/1020?profile=3 <br />
 
 
 https://lex.infosysapps.com/navigator/lp/1021?profile=2
+
+
+
+Temp
+========
+
+https://apps.apple.com/in/app/buzztown/id871138470 <br />
+
+
+https://apps.apple.com/us/app/le-moulin-rouge/id1148426822?ls=1
