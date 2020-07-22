@@ -71,3 +71,11 @@ Part 3
 In our latest update, we have made a number of bug fixes. As always, we listen to your feedback, and are working hard to improve your mobile banking experience.
 
 In this update, we’ve made it easier to save new payees. We’ve also fixed a number of bugs. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
+
+
+In this update, we've made a number of bug fixes to improve your mobile banking experience. We're always listening to your feedback, and are working hard to improve your Mobile experience.
+
+In this update we’ve added the ability to view and revoke access granted through third party providers using Open Banking. We're always listening to your feedback, and are working hard to improve your Mobile experience.
+
+In this update, we’ve made a number of bug fixes to improve your mobile banking experience. We’re always listening to your feedback, and are working hard to improve your Mobile experience.
+
