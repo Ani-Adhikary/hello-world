@@ -65,3 +65,9 @@ This update provides you with enhanced log on security. We’ve also made a numb
 This update provides you with enhanced log on security. We’ve also made a number of big fixes. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
 
 
+Part 3
+=======
+
+In our latest update, we have made a number of bug fixes. As always, we listen to your feedback, and are working hard to improve your mobile banking experience.
+
+In this update, we’ve made it easier to save new payees. We’ve also fixed a number of bugs. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
