@@ -49,3 +49,11 @@ This update enables you to check your available balance on the main balances scr
 
 
 This update enables you to check your available balance on the main balances screen, plus you can view and cancel your Standing Orders and Direct Debits making it easier to manage your payments and bug fixes.
+
+Part 2
+==========
+
+In this update, we’ve made a number of bug fixes to improve your mobile banking experience. We’re always listening to your feedback, and are working hard to improve your Mobile experience
+
+
+In this update, we’ve added a new and more secure way of making payments. We’ve also made improvements to the screen designs, updated the security and fixed a number of bugs. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
