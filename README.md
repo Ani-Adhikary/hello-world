@@ -44,3 +44,8 @@ In this update, we’ve added a new way for you to share your account informatio
 
 We’re always listening to your feedback, and are working hard to improve your Mobile experience.
 
+
+This update enables you to check your available balance on the main balances screen, plus you can view and cancel your Standing Orders and Direct Debits making it easier to manage your payments. We’re always listening and working to improve your banking experience.
+
+
+This update enables you to check your available balance on the main balances screen, plus you can view and cancel your Standing Orders and Direct Debits making it easier to manage your payments and bug fixes.
