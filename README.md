@@ -79,3 +79,14 @@ In this update we’ve added the ability to view and revoke access granted throu
 
 In this update, we’ve made a number of bug fixes to improve your mobile banking experience. We’re always listening to your feedback, and are working hard to improve your Mobile experience.
 
+Part4
+========
+
+We’ve heard your feedback and in this update we have included Mobile Cheque Deposit functionality, meaning shortly you’ll be able to deposit cheques via your mobile. We’ve also enhanced our Open Banking services and made a number of bug fixes to improve your mobile banking experience. As always, we’re listening to your feedback and are working hard to improve your mobile experience.
+
+We’ve heard your feedback and in this update we have included Mobile Cheque Deposit functionality, meaning shortly you’ll be able to deposit cheques via your mobile. We’ve also enhanced our Open Banking services and made a number of bug fixes to improve your mobile banking experience. As always, we’re listening to your feedback and are working hard to improve your mobile experience.
+
+In this update, we’ve made a number of bug fixes to improve your mobile banking experience, including an issue with Touch ID log on for some iPhone SE phones. We’re always listening to your feedback, and are working hard to improve your mobile experience.
+
+
+
