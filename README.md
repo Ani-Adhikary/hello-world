@@ -57,3 +57,11 @@ In this update, we’ve made a number of bug fixes to improve your mobile bankin
 
 
 In this update, we’ve added a new and more secure way of making payments. We’ve also made improvements to the screen designs, updated the security and fixed a number of bugs. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
+
+
+This update provides you with enhanced log on security. We’ve also made a number of big fixes. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
+
+
+This update provides you with enhanced log on security. We’ve also made a number of big fixes. We’re always listening to your feedback, and are working hard to improve your mobile banking experience.
+
+
