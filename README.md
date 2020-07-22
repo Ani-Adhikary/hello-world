@@ -34,3 +34,13 @@ https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=ip
 
 bug fix where some users could not see their list of businesses
 
+
+In this update, we’ve added a new way for you to share your account information though Open Banking services.
+
+We’re always listening to your feedback, and are working hard to improve your Mobile experience.
+
+
+In this update, we’ve added a new way for you to share your account information and options to make payments though Open Banking services.
+
+We’re always listening to your feedback, and are working hard to improve your Mobile experience.
+
