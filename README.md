@@ -30,3 +30,7 @@ App URL
 ==========
 
 https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=iphone
+
+
+bug fix where some users could not see their list of businesses
+
