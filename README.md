@@ -30,8 +30,3 @@ App URL
 ==========
 
 https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=iphone
-
-
-
-
-In this update, we’ve made some improvements to our security and Open Banking services, along with some minor bug fixes. We’re always listening to your feedback and are working hard to improve your mobile experience.
