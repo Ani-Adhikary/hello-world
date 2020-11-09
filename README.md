@@ -30,3 +30,6 @@ App URL
 ==========
 
 https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=iphone
+
+
+In this update we’ve added the ability for Primary users to view and update their business contact details. We’ve also made a number of bug fixes to improve your mobile banking experience. We’re always listening to your feedback and are working hard to improve your mobile experience.
