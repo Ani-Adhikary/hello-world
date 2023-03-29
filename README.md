@@ -20,3 +20,6 @@ App URL
 
 https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=iphone
 
+<h2> Mail App by Apple </h2>
+
+https://apps.apple.com/us/app/mail/id1108187098
