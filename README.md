@@ -24,10 +24,3 @@ https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=ip
 
 https://apps.apple.com/us/app/mail/id1108187098
 
-
-\u001b[1m
-
-\u001b[0m
-
-
-\u{1D4D7}ello \u{1D4E6}orld
