@@ -24,3 +24,7 @@ https://apps.apple.com/gb/app/hsbc-uk-business-banking/id1436847080#?platform=ip
 
 https://apps.apple.com/us/app/mail/id1108187098
 
+Video URLs
+
+https://sample-videos.com/video123/mp4/720/
+https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4
