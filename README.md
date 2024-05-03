@@ -48,3 +48,18 @@ Lev_174328117
 
 
 
+Astrum: Latin for "star," representing the celestial bodies found throughout the solar system and beyond.
+
+Galactia: A term derived from "galactic," suggesting a connection to the galaxy as a whole rather than a specific planet or moon.
+
+Nova: Latin for "new," often used to describe a sudden brightening of a star, though not directly associated with a specific planet or moon.
+
+Sirius: Derived from Ancient Greek meaning "glowing" or "scorching." Sirius is the brightest star in the night sky.
+
+Polaris: Latin for "Pole Star" or "North Star." Polaris is the brightest star in the constellation Ursa Minor and is famous for its proximity to the celestial north pole.
+
+Titan: Moon of Saturn. In Greek mythology, Titans were powerful deities and the elder gods that ruled the cosmos before the Olympian gods.
+
+Europa: Moon of Jupiter. Named after the mythical Phoenician princess Europa, who was abducted by Zeus in the form of a bull and carried to Crete.
+
+Ganymede: It is one of Jupiter's moons. It is the largest moon in the solar system and is even larger than the planet Mercury.
