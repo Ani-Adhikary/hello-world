@@ -39,4 +39,3 @@ https://github.com/appcoda/In-app-Purchase-Game-Demo
 https://www.vskills.in/certification/certified-digital-marketing-professional
 
 
-Your one-time activation code is 138879. Please don't share it with anyone/ Ma kich hoat cua Quy khach la: 138879. Vui long khong chia se voi bat ky ai.
