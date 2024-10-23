@@ -39,6 +39,4 @@ https://github.com/appcoda/In-app-Purchase-Game-Demo
 https://www.vskills.in/certification/certified-digital-marketing-professional
 
 
-RM0.00 HSBC/AMH : 552646 is your one-time activation code for HSBC Online Account Opening. This code is only valid for this device. Do not share it with anyone.
-
 
