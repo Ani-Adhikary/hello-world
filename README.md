@@ -109,3 +109,36 @@ extension YourViewController: UIPopoverPresentationControllerDelegate {
     }
 }
 
+////
+
+func shareAccountDetailsActionSheet(message: String, sender: UIView, completion: (() -> Void)?) {
+    let activityViewController = UIActivityViewController(activityItems: [message], applicationActivities: nil)
+
+    if let popoverController = activityViewController.popoverPresentationController {
+        popoverController.sourceView = sender
+        popoverController.sourceRect = sender.bounds
+        popoverController.permittedArrowDirections = .any
+
+        // ✅ Add a transparent background view to detect outside taps
+        let tapDismissView = UIView(frame: self.view.bounds)
+        tapDismissView.backgroundColor = UIColor.clear
+        self.view.addSubview(tapDismissView)
+
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissPopover(_:)))
+        tapDismissView.addGestureRecognizer(tapGesture)
+
+        // ✅ Remove the tapDismissView after action is completed
+        activityViewController.completionWithItemsHandler = { [weak self] _, _, _, _ in
+            tapDismissView.removeFromSuperview()
+            completion?()
+        }
+    }
+
+    present(activityViewController, animated: true)
+}
+
+// ✅ Function to dismiss popover when tapping outside
+@objc private func dismissPopover(_ sender: UITapGestureRecognizer) {
+    self.dismiss(animated: true)
+}
+
