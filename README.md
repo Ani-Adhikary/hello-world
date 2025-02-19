@@ -79,4 +79,33 @@ func shareAccountDetailsActionSheet(message: String, completion: (() -> Void)?) 
     }
 }
 
+func shareAccountDetailsActionSheet(message: String, completion: (() -> Void)?) {
+    let activityViewController = UIActivityViewController(activityItems: [message], applicationActivities: nil)
+
+    // ✅ iPad popover support
+    if let popoverController = activityViewController.popoverPresentationController {
+        popoverController.sourceView = self.view
+        popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+        popoverController.permittedArrowDirections = [] // No arrow for a centered popover
+        popoverController.delegate = self // ✅ Allows tap outside to dismiss
+    }
+
+    activityViewController.completionWithItemsHandler = { [weak self] _, _, _, _ in
+        guard let self = self else { return }
+        self.view.isAccessibilityElement = true
+        UIAccessibility.post(notification: .layoutChanged, argument: self.shareDetailsButton)
+        completion?() // ✅ Ensures proper dismissal after sharing
+    }
+
+    present(activityViewController, animated: true) {
+        UIAccessibility.post(notification: .screenChanged, argument: activityViewController.view)
+    }
+}
+
+// ✅ Conform to `UIPopoverPresentationControllerDelegate` to allow outside tap to dismiss
+extension YourViewController: UIPopoverPresentationControllerDelegate {
+    func popoverPresentationControllerShouldDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) -> Bool {
+        return true // ✅ Allows dismissal when tapping outside
+    }
+}
 
