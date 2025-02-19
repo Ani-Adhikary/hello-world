@@ -57,3 +57,26 @@ Lev_187995071
 
 Lev_187436410
 
+func shareAccountDetailsActionSheet(message: String, completion: (() -> Void)?) {
+    let activityViewController = UIActivityViewController(activityItems: [message], applicationActivities: nil)
+
+    // iPads require a sourceView and sourceRect for popovers
+    if let popoverController = activityViewController.popoverPresentationController {
+        popoverController.sourceView = self.view
+        popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+        popoverController.permittedArrowDirections = [] // No arrow needed for centered popover
+    }
+
+    activityViewController.completionWithItemsHandler = { [weak self] _, _, _, _ in
+        guard let self = self else { return }
+        self.view.isAccessibilityElement = true
+        UIAccessibility.post(notification: .layoutChanged, argument: self.shareDetailsButton)
+        completion?() // Call completion handler after sharing/canceling
+    }
+
+    present(activityViewController, animated: true) {
+        UIAccessibility.post(notification: .screenChanged, argument: activityViewController.view)
+    }
+}
+
+
