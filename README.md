@@ -58,28 +58,10 @@ Lev_187995071
 Lev_187436410
 
 
- func shareAccountDetailsActionSheet(message: String, completion: (() -> Void)?) {
-        let activityViewController = UIActivityViewController(activityItems: [message], applicationActivities: nil)
-
-        if UIDevice.current.userInterfaceIdiom == .pad {
-            if let popoverController = activityViewController.popoverPresentationController {
-                popoverController.sourceView = self.view
-                popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-                popoverController.permittedArrowDirections = []
-            }
-
-            // ✅ Ensure full-screen presentation for "X" button on iPad
-            activityViewController.modalPresentationStyle = .fullScreen
+if UIDevice.current.userInterfaceIdiom == .pad {
+            // ✅ Wrap inside UINavigationController to force full-screen & show "X" button
+            let navController = UINavigationController(rootViewController: activityViewController)
+            navController.modalPresentationStyle = .fullScreen
+            present(navController, animated: true)
+            return
         }
-
-        activityViewController.completionWithItemsHandler = { [weak self] _, _, _, _ in
-            guard let self = self else { return }
-            UIAccessibility.post(notification: .layoutChanged, argument: self.view)
-            completion?()
-        }
-
-        present(activityViewController, animated: true) {
-            UIAccessibility.post(notification: .screenChanged, argument: activityViewController.view)
-        }
-    }
-
