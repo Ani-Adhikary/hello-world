@@ -58,10 +58,3 @@ Lev_187995071
 Lev_187436410
 
 
-if UIDevice.current.userInterfaceIdiom == .pad {
-            // ✅ Wrap inside UINavigationController to force full-screen & show "X" button
-            let navController = UINavigationController(rootViewController: activityViewController)
-            navController.modalPresentationStyle = .fullScreen
-            present(navController, animated: true)
-            return
-        }
