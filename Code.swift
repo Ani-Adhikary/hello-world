@@ -40,3 +40,9 @@ struct CardDetailsView: View {
     }
 }
 
+// Hidden NavigationLink
+                NavigationLink(
+                    destination: CardDetailsView(),
+                    isActive: $isActive,
+                    label: { EmptyView() }
+                )
